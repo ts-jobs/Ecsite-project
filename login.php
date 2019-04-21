@@ -36,7 +36,7 @@
     <button class="btn waves-effect waves-light" type="submit" name="action" id="sendBtn">ログイン</button>
    </form>
  </div>
- <p class="forget-pass"><a href="">パスワードをお忘れですか？</a><p>
+ <p class="forget-pass"><a href="">パスワードをお忘れですか?</a><p>
  <p><a href="" class="waves-effect waves-light btn" id="new-member-btn">新規会員登録はコチラ</a></p>
 </div>
 <!-- ここまでメイン -->
