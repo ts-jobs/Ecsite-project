@@ -1,4 +1,4 @@
-<!-- ログイン画面->
+<!-- ログイン画面-->
 <!doctype html>
 <html lang="ja">
   <head>
