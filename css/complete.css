@@ -8,9 +8,15 @@ body{
 /*ここからヘッダー*/
 .header-wrapper{
  background:#eee;
+ position: absolute;
+ top:0;
+ left:0;
+ right:0;
+ margin-bottom: 5rem;
 }
 .logo{
  padding:1rem 1.5rem;
+ margin-bottom: 0;
 }
 /*ここまでヘッダー*/
 
@@ -27,7 +33,7 @@ body{
  margin:0 auto;
  padding:4rem 2rem;
  text-align:center;
- margin-top:5rem;
+ margin-top:9rem;
  position:relative;
 }
 .main-title{
