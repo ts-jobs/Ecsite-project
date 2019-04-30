@@ -25,6 +25,9 @@
   <a href="./login.php">1.ログイン</a>
 </div>
 <div>
+  <a href="./new.php">2.新規会員登録画面</a>
+</div>
+<div>
   <a href="./complete.php">9.購入完了画面</a>
 </div>
 <!-- ここまでメイン -->

@@ -18,12 +18,12 @@ body{
 /*ここからメイン*/
 .main-wrapper{
  text-align:center;
- min-width:35rem;
+ min-width:60rem;
 }
 .main-container{
  background:#eee;
- width:35rem;
- min-width:35rem;
+ width:60rem;
+ min-width:60rem;
  margin:0 auto;
  padding:4rem 2rem;
  text-align:center;
@@ -33,6 +33,7 @@ body{
  font-size:1.25rem;
  font-weight:normal;
  margin:0;
+ text-align: left;
 }
 #name{
  margin-bottom:1rem;
