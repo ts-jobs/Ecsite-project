@@ -23,7 +23,11 @@
 <!-- ここまでメイン -->
 <div class="main-wrapper">
  <div class="main-container">
+
    <h1 class="main-title">新規登録</h1>
+
+  
+
    <form id="login-form" method="post" action="">
     <table class="new-form">
       <tr>
