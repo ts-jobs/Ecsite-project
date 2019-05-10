@@ -26,7 +26,7 @@
    <h1 class="main-title">ログイン</h1>
    <form id="login-form" method="post" action="">
     <div class="name-area input-field col s12">
-     <label for="name">ユーザー名(半角英数字)：:</label>
+     <label for="name">ユーザー名(半角英数字)：</label>
      <input type="text" id="name" name="user_name" class="validate">
     </div>
     <div class="password-area input-field col s12">
