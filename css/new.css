@@ -35,11 +35,27 @@ body{
  margin:0;
  text-align: left;
 }
-#name{
- margin-bottom:1rem;
+.new-form th{
+  width:30%;
 }
-#password{
- margin-bottom:2rem;
+.new-form td{
+  width:70%;
+}
+.questions-area{
+  position: relative;
+  padding:0.25rem 0.5rem;
+}
+.required{
+  position:absolute;
+  right:4rem;
+  color:#fff;
+  background:red;
+  padding:0.25rem 0.5rem;
+  line-height: 1rem;
+}
+.last-name,
+.first-name{
+  width:15rem !important;
 }
 #sendBtn{
  width:15rem;

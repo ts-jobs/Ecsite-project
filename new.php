@@ -23,21 +23,27 @@
 <!-- ここまでメイン -->
 <div class="main-wrapper">
  <div class="main-container">
-   <h1 class="main-title">ログイン</h1>
+   <h1 class="main-title">新規会員登録</h1>
    <form id="login-form" method="post" action="">
-    <div class="name-area input-field col s12">
-     <label for="name">ユーザー名(半角英数字)：</label>
-     <input type="text" id="name" name="user_name" class="validate">
-    </div>
-    <div class="password-area input-field col s12">
-     <label for="password">パスワード(半角英数字)：</label>
-     <input type="password" id="password" name="user_pass" class="validate">
-    </div>
-    <button class="btn waves-effect waves-light" type="submit" name="action" id="sendBtn">ログイン</button>
+    <table class="new-form">
+      <tr>
+        <th>
+          <div class="questions-area">
+            <span class="questions">お名前</span>
+            <span class="required">必須</span>
+          </div>
+        </th>
+        <td>
+          <div class="answers-area">
+            <span class="answers"><label for="lastName">姓：</label><input type="text" id="lastName" class="last-name"></span>
+            <span class="answers"><label for="firstName">名：</label><input type="text" id="firstName" class="first-name"></span>
+          </div>
+        </td>
+      </tr>
+    </table>
+    <button class="btn waves-effect waves-light" type="submit" name="action" id="sendBtn">登録</button>
    </form>
  </div>
- <p class="forget-pass"><a href="">パスワードをお忘れですか?</a><p>
- <p><a href="" class="waves-effect waves-light btn" id="new-member-btn">新規会員登録はコチラ</a></p>
 </div>
 <!-- ここまでメイン -->
 
