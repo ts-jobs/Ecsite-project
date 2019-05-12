@@ -28,6 +28,7 @@
    <!-- ここからテーブル -->
    <form id="login-form" method="post" action="">
     <table class="new-form">
+
       <tr>
         <th>
           <div class="questions-area">
@@ -42,6 +43,107 @@
           </div>
         </td>
       </tr>
+
+      <tr>
+        <th>
+          <div class="questions-area">
+            <span class="questions">フリガナ</span>
+            <span class="required">必須</span>
+          </div>
+        </th>
+        <td>
+          <div class="answers-area">
+            <span class="answers"><label for="lastFurigana">セイ：</label><input type="text" id="lastFurigana" class="last-furigana"></span>
+            <span class="answers"><label for="firstFurigana">メイ：</label><input type="text" id="firstFurigana" class="first-furigana"></span>
+          </div>
+        </td>
+      </tr>
+
+      <tr>
+        <th>
+          <div class="questions-area">
+            <span class="questions">性別</span>
+            <span class="required">必須</span>
+          </div>
+        </th>
+        <td>
+          <div class="answers-area">
+            <span class="answers"><label><input type="radio" id="male" name="sex" class="sexes"><span class="sex-names">男性</span></label></span>
+            <span class="answers"><label><input type="radio" id="female" name="sex" class="sexes"><span class="sex-names">女性</span></label></span>
+          </div>
+        </td>
+      </tr>
+
+      <tr>
+        <th>
+          <div class="questions-area">
+            <span class="questions">生年月日</span>
+            <span class="required">必須</span>
+          </div>
+        </th>
+        <td>
+          <div class="answers-area">
+            <span class="answers"><label><input type="radio" id="male" name="sex" class="sexes"><span class="sex-names">年</span></label></span>
+            <span class="answers"><label><input type="radio" id="female" name="sex" class="sexes"><span class="sex-names">月</span></label></span>
+            <span class="answers"><label><input type="radio" id="female" name="sex" class="sexes"><span class="sex-names">日</span></label></span>
+          </div>
+        </td>
+      </tr>
+
+      <tr>
+        <th>
+          <div class="questions-area">
+            <span class="questions">電話番号</span>
+            <span class="required">必須</span>
+          </div>
+        </th>
+        <td>
+          <div class="answers-area">
+            <span class="answers"><input type="text" id="tellNum1" class="tell-nums"></span>-
+            <span class="answers"><input type="text" id="tellNum2" class="tell-nums"></span>-
+            <span class="answers"><input type="text" id="tellNum3" class="tell-nums"></span>
+          </div>
+        </td>
+      </tr>
+
+      <tr>
+        <th>
+          <div class="questions-area">
+            <span class="questions">メールアドレス<br>(ユーザーID)</span>
+            <span class="required">必須</span>
+          </div>
+        </th>
+        <td>
+          <div class="answers-area">
+            <span class="answers"><input type="text" id="mail1" class="e-mail1"></span>＠
+            <span class="answers"><input type="text" id="mail2" class="e-mail2"></span>
+          </div>
+        </td>
+      </tr>
+
+      <tr>
+        <th>
+          <div class="questions-area">
+            <span class="questions">メールアドレス<br>(確認用)</span>
+            <span class="required">必須</span>
+          </div>
+        </th>
+        <td>
+          <div class="answers-area">
+            <span class="answers"><input type="text" id="reMail1" class="e-mail1"></span>＠
+            <span class="answers"><input type="text" id="reMail2" class="e-mail2"></span>
+          </div>
+        </td>
+      </tr>
+
+
+
+
+
+
+
+
+
     </table>
     <button class="btn waves-effect waves-light" type="submit" name="action" id="sendBtn">登録</button>
    </form>
