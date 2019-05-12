@@ -24,6 +24,8 @@
 <div class="main-wrapper">
  <div class="main-container">
    <h1 class="main-title">新規登録</h1>
+
+   <!-- ここからテーブル -->
    <form id="login-form" method="post" action="">
     <table class="new-form">
       <tr>
@@ -43,6 +45,8 @@
     </table>
     <button class="btn waves-effect waves-light" type="submit" name="action" id="sendBtn">登録</button>
    </form>
+   <!-- ここまでテーブル -->
+
  </div>
 </div>
 <!-- ここまでメイン -->
