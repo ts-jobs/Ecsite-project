@@ -35,6 +35,9 @@ body{
  margin:0;
  text-align: left;
 }
+.new-form{
+  margin-bottom:3rem;
+}
 .new-form tr{
   margin-bottom: 1.5rem;
 }
@@ -65,10 +68,9 @@ body{
 .first-furigana{
   width:15rem !important;
 }
-.sex-names{
+.right-margin{
   margin-right:2rem;
 }
-
 .tell-nums{
   width:8rem !important;
 }
@@ -78,14 +80,27 @@ body{
 .e-mail2{
   width:12rem !important;
 }
+.postmark{
+  width:10rem !important;
+}
+.ken-text{
+  width:17rem !important;
+  margin-left:3rem !important;
+}
+.city-text{
+  width:25rem !important;
+  margin-left:1.4rem !important;
+}
+.other-text{
+  width:25rem !important;
+  margin-left:1.4rem !important;
+}
+.agree-txt{
+  margin-bottom:1rem;
+  height:5rem;
+}
 #sendBtn{
- width:15rem;
-}
-.forget-pass{
- padding:3rem;
-}
-#new-member-btn{
- color:#fff;
+ margin-top:3rem;
  width:15rem;
 }
 

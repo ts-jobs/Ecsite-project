@@ -68,8 +68,8 @@
         </th>
         <td>
           <div class="answers-area">
-            <span class="answers"><label><input type="radio" id="male" name="sex" class="sexes"><span class="sex-names">男性</span></label></span>
-            <span class="answers"><label><input type="radio" id="female" name="sex" class="sexes"><span class="sex-names">女性</span></label></span>
+            <span class="answers"><label><input type="radio" id="male" name="sex" class="sexes"><span class="right-margin">男性</span></label></span>
+            <span class="answers"><label><input type="radio" id="female" name="sex" class="sexes"><span class="right-margin">女性</span></label></span>
           </div>
         </td>
       </tr>
@@ -83,9 +83,9 @@
         </th>
         <td>
           <div class="answers-area">
-            <span class="answers"><label><input type="radio" id="male" name="sex" class="sexes"><span class="sex-names">年</span></label></span>
-            <span class="answers"><label><input type="radio" id="female" name="sex" class="sexes"><span class="sex-names">月</span></label></span>
-            <span class="answers"><label><input type="radio" id="female" name="sex" class="sexes"><span class="sex-names">日</span></label></span>
+            <span class="answers"><label><input type="radio" id="male" name="sex" class="sexes"><span class="right-margin">年</span></label></span>
+            <span class="answers"><label><input type="radio" id="female" name="sex" class="sexes"><span class="right-margin">月</span></label></span>
+            <span class="answers"><label><input type="radio" id="female" name="sex" class="sexes"><span class="right-margin">日</span></label></span>
           </div>
         </td>
       </tr>
@@ -136,15 +136,30 @@
         </td>
       </tr>
 
-
-
-
-
-
-
-
+      <tr>
+        <th>
+          <div class="questions-area">
+            <span class="questions">お住まい</span>
+            <span class="required">必須</span>
+          </div>
+        </th>
+        <td>
+          <div class="answers-area">
+            <span class="answers"><label for="postMark">〒</label><input type="text" id="postMark" class="postmark"></span>
+            <p class="answers"><label for="ken">都道府県</label><input type="text" id="ken" class="ken-text"></p>
+            <p class="answers"><label for="city">市区町村番地</label><input type="text" id="city" class="city-text"></p>
+            <p class="answers"><label for="other">マンション名</label><input type="text" id="other" class="other-text"></p>
+          </div>
+        </td>
+      </tr>
 
     </table>
+
+    <div class="agree-container">
+      <p class="agree-title">利用規約</p>
+      <textarea class="agree-txt" readonly>利用規約本文</textarea>
+      <p class="agree-area"><label><input type="checkbox" id="agree"><span class="right-margin">利用規約に同意する</span></label></p>
+    </div>
     <button class="btn waves-effect waves-light" type="submit" name="action" id="sendBtn">登録</button>
    </form>
    <!-- ここまでテーブル -->
