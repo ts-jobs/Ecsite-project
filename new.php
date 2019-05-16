@@ -83,9 +83,9 @@
         </th>
         <td>
           <div class="answers-area">
-            <span class="answers"><label><input type="radio" id="male" name="sex" class="sexes"><span class="right-margin">年</span></label></span>
-            <span class="answers"><label><input type="radio" id="female" name="sex" class="sexes"><span class="right-margin">月</span></label></span>
-            <span class="answers"><label><input type="radio" id="female" name="sex" class="sexes"><span class="right-margin">日</span></label></span>
+            <span class="answers"><input type="text" id="year" class="year"><label for="year">年</label></span>
+            <span class="answers"><input type="text" id="month" class="month"><label for="month">月</label></span>
+            <span class="answers"><input type="text" id="day" class="day"><label for="day">日</label></span>
           </div>
         </td>
       </tr>
@@ -115,8 +115,7 @@
         </th>
         <td>
           <div class="answers-area">
-            <span class="answers"><input type="text" id="mail1" class="e-mail1"></span>＠
-            <span class="answers"><input type="text" id="mail2" class="e-mail2"></span>
+            <span class="answers"><input type="email" id="mail" class="e-mail"></span>
           </div>
         </td>
       </tr>
@@ -130,8 +129,7 @@
         </th>
         <td>
           <div class="answers-area">
-            <span class="answers"><input type="text" id="reMail1" class="e-mail1"></span>＠
-            <span class="answers"><input type="text" id="reMail2" class="e-mail2"></span>
+            <span class="answers"><input type="email" id="reEmail" class="e-mail"></span>
           </div>
         </td>
       </tr>
@@ -168,6 +166,9 @@
 </div>
 <!-- ここまでメイン -->
 
+
+
+
 <!-- ここからフッター -->
 <div class="footer-wrapper">
  <p class="copyright">Ⓒts-jobs Sample App 2019</p>
@@ -180,5 +181,6 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="js/new.js"></script>
 </body>
 </html>

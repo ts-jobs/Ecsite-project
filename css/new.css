@@ -71,14 +71,18 @@ body{
 .right-margin{
   margin-right:2rem;
 }
+.year,
+.month,
+.day{
+  width:5rem !important;
+  text-align: right;
+  padding-right:0.5rem !important;
+}
 .tell-nums{
   width:8rem !important;
 }
-.e-mail1{
-  width:18rem !important;
-}
-.e-mail2{
-  width:12rem !important;
+.e-mail{
+  width:34rem !important;
 }
 .postmark{
   width:10rem !important;
