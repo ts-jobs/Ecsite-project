@@ -158,7 +158,7 @@
       <textarea class="agree-txt" readonly>利用規約本文</textarea>
       <p class="agree-area"><label><input type="checkbox" id="agree"><span class="right-margin">利用規約に同意する</span></label></p>
     </div>
-    <button class="btn waves-effect waves-light" type="submit" name="action" id="sendBtn">登録</button>
+    <button class="btn waves-effect waves-light" type="submit" name="action" id="sendBtn">確認</button>
    </form>
    <!-- ここまでテーブル -->
 

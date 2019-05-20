@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <link rel="stylesheet" href="css/confirm.css">
 
-    <title>会員登録画面(サンプル)</title>
+    <title>登録確認画面(サンプル)</title>
   </head>
 <body>
 <!-- ここからヘッダー -->
@@ -23,7 +23,8 @@
 <!-- ここまでメイン -->
 <div class="main-wrapper">
  <div class="main-container">
-   <h1 class="main-title">新規登録</h1>
+   <h1 class="main-title">登録内容確認</h1>
+   <p class="main-txt">登録内容を確認し、内容に間違いがなければ「登録」ボタンを押して下さい</p>
 
    <!-- ここからテーブル -->
    <form id="login-form" method="post" action="">
@@ -38,8 +39,8 @@
         </th>
         <td>
           <div class="answers-area">
-            <span class="answers"><label for="lastName">姓：</label><input type="text" id="lastName" class="last-name"></span>
-            <span class="answers"><label for="firstName">名：</label><input type="text" id="firstName" class="first-name"></span>
+            <span class="answers"><label for="lastName">姓：</label><span class="last-name right-margin">Sample</span></span>
+            <span class="answers"><label for="firstName">名：</label><span class="first-name right-margin">太郎</span></span>
           </div>
         </td>
       </tr>
@@ -53,8 +54,8 @@
         </th>
         <td>
           <div class="answers-area">
-            <span class="answers"><label for="lastFurigana">セイ：</label><input type="text" id="lastFurigana" class="last-furigana"></span>
-            <span class="answers"><label for="firstFurigana">メイ：</label><input type="text" id="firstFurigana" class="first-furigana"></span>
+            <span class="answers"><label for="lastFurigana">セイ：</label><span class="last-furigana right-margin">サンプル</span></span>
+            <span class="answers"><label for="firstFurigana">メイ：</label><span class="first-furigana right-margin">タロウ</span></span>
           </div>
         </td>
       </tr>
@@ -68,8 +69,7 @@
         </th>
         <td>
           <div class="answers-area">
-            <span class="answers"><label><input type="radio" id="male" name="sex" class="sexes"><span class="right-margin">男性</span></label></span>
-            <span class="answers"><label><input type="radio" id="female" name="sex" class="sexes"><span class="right-margin">女性</span></label></span>
+            <span class="answers"><span class="right-margin">男性</span></span>
           </div>
         </td>
       </tr>
@@ -83,9 +83,9 @@
         </th>
         <td>
           <div class="answers-area">
-            <span class="answers"><input type="text" id="year" class="year"><label for="year">年</label></span>
-            <span class="answers"><input type="text" id="month" class="month"><label for="month">月</label></span>
-            <span class="answers"><input type="text" id="day" class="day"><label for="day">日</label></span>
+            <span class="answers"><span class="year">1991</span><label for="year" class="right-margin">年</label></span>
+            <span class="answers"><span class="month">12</span><label for="month" class="right-margin">月</label></span>
+            <span class="answers"><span class="day">13</span><label for="day">日</label></span>
           </div>
         </td>
       </tr>
@@ -99,9 +99,9 @@
         </th>
         <td>
           <div class="answers-area">
-            <span class="answers"><input type="text" id="tellNum1" class="tell-nums"></span>-
-            <span class="answers"><input type="text" id="tellNum2" class="tell-nums"></span>-
-            <span class="answers"><input type="text" id="tellNum3" class="tell-nums"></span>
+            <span class="answers"><span class="tell-nums">000</span></span>-
+            <span class="answers"><span class="tell-nums">000</span</span>-
+            <span class="answers"><span class="tell-nums">000</span</span>
           </div>
         </td>
       </tr>
@@ -115,7 +115,7 @@
         </th>
         <td>
           <div class="answers-area">
-            <span class="answers"><input type="email" id="mail" class="e-mail"></span>
+            <span class="answers"><span class="e-mail">sample@sample.com</span</span>
           </div>
         </td>
       </tr>
@@ -129,7 +129,7 @@
         </th>
         <td>
           <div class="answers-area">
-            <span class="answers"><input type="email" id="reEmail" class="e-mail"></span>
+            <span class="answers"><span class="e-mail">sample@sample.com</span></span>
           </div>
         </td>
       </tr>
@@ -143,21 +143,30 @@
         </th>
         <td>
           <div class="answers-area">
-            <span class="answers"><label for="postMark">〒</label><input type="text" id="postMark" class="postmark"></span>
-            <p class="answers"><label for="ken">都道府県</label><input type="text" id="ken" class="ken-text"></p>
-            <p class="answers"><label for="city">市区町村番地</label><input type="text" id="city" class="city-text"></p>
-            <p class="answers"><label for="other">マンション名</label><input type="text" id="other" class="other-text"></p>
+            <p class="answers"><label for="postMark" class="right-margin">〒</label><span class="postmark">111-1111</span></p>
+            <p class="answers"><label for="ken">都道府県</label><span class="ken-text">○○県</span></p>
+            <p class="answers"><label for="city">市区町村番地</label><span class="city-text">△△市</span></p>
+            <p class="answers"><label for="other">マンション名</label><span class="other-text">□□町　0-0-0</span></p>
           </div>
         </td>
       </tr>
 
+      <tr>
+        <th>
+          <div class="questions-area">
+            <span class="questions">利用規約</span>
+            <span class="required">必須</span>
+          </div>
+        </th>
+        <td>
+          <div class="answers-area">
+            <span class="answers">同意する</span>
+        </td>
+      </tr>
+
+
     </table>
 
-    <div class="agree-container">
-      <p class="agree-title">利用規約</p>
-      <textarea class="agree-txt" readonly>利用規約本文</textarea>
-      <p class="agree-area"><label><input type="checkbox" id="agree"><span class="right-margin">利用規約に同意する</span></label></p>
-    </div>
     <button class="btn waves-effect waves-light" type="submit" name="action" id="sendBtn">登録</button>
    </form>
    <!-- ここまでテーブル -->

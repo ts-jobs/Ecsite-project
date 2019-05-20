@@ -28,6 +28,9 @@
   <a href="./new.php">2.新規会員登録画面</a>
 </div>
 <div>
+  <a href="./confirm.php">3.登録内容確認画面</a>
+</div>
+<div>
   <a href="./complete.php">9.購入完了画面</a>
 </div>
 <!-- ここまでメイン -->
