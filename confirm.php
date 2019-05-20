@@ -123,20 +123,6 @@
       <tr>
         <th>
           <div class="questions-area">
-            <span class="questions">メールアドレス<br>(確認用)</span>
-            <span class="required">必須</span>
-          </div>
-        </th>
-        <td>
-          <div class="answers-area">
-            <span class="answers"><span class="e-mail">sample@sample.com</span></span>
-          </div>
-        </td>
-      </tr>
-
-      <tr>
-        <th>
-          <div class="questions-area">
             <span class="questions">お住まい</span>
             <span class="required">必須</span>
           </div>
