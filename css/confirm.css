@@ -1,0 +1,120 @@
+body{
+ margin:0;
+ position:relative;
+ height:100vh;
+ min-height:100vh;
+}
+
+/*ここからヘッダー*/
+.header-wrapper{
+ background:#eee;
+}
+.logo{
+ padding:1rem 1.5rem;
+}
+/*ここまでヘッダー*/
+
+
+/*ここからメイン*/
+.main-wrapper{
+ text-align:center;
+ min-width:60rem;
+}
+.main-container{
+ background:#eee;
+ width:60rem;
+ min-width:60rem;
+ margin:0 auto;
+ padding:4rem 2rem;
+ text-align:center;
+ margin-top:5rem;
+}
+.main-title{
+ font-size:1.25rem;
+ font-weight:normal;
+ margin:0;
+ text-align: left;
+}
+.new-form{
+  margin-bottom:3rem;
+}
+.new-form tr{
+  margin-bottom: 1.5rem;
+}
+.new-form th{
+  width:30%;
+}
+.new-form td{
+  width:70%;
+}
+.questions-area{
+  position: relative;
+  padding:0.25rem 0.5rem;
+}
+.answers label{
+  margin-bottom: 0;
+}
+.required{
+  position:absolute;
+  right:4rem;
+  color:#fff;
+  background:#ff7f50;
+  padding:0.25rem 0.5rem;
+  line-height: 1rem;
+  font-size: 0.75rem;
+}
+.last-name,
+.first-name,
+.last-furigana,
+.first-furigana{
+  width:15rem !important;
+}
+.right-margin{
+  margin-right:2rem;
+}
+.year,
+.month,
+.day{
+  width:5rem !important;
+  text-align: right;
+  padding-right:0.5rem !important;
+}
+.tell-nums{
+  width:8rem !important;
+}
+.e-mail{
+  width:34rem !important;
+}
+.postmark{
+  width:10rem !important;
+}
+.ken-text{
+  width:17rem !important;
+  margin-left:3rem !important;
+}
+.city-text{
+  width:25rem !important;
+  margin-left:1.4rem !important;
+}
+.other-text{
+  width:25rem !important;
+  margin-left:1.4rem !important;
+}
+.agree-txt{
+  margin-bottom:1rem;
+  height:5rem;
+}
+#sendBtn{
+ margin-top:3rem;
+ width:15rem;
+}
+
+/*ここまでメイン*/
+
+/*ここからフッター*/
+.footer-wrapper{
+ text-align:center;
+ margin-top:2.5rem;
+ min-width:35rem;
+}
+/*ここまでフッター*/
