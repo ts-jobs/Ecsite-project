@@ -58,9 +58,10 @@ body{
   position:absolute;
   right:4rem;
   color:#fff;
-  background:red;
+  background:#ff7f50;
   padding:0.25rem 0.5rem;
   line-height: 1rem;
+  font-size: 0.75rem;
 }
 .last-name,
 .first-name,
