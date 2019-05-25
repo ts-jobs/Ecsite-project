@@ -30,7 +30,7 @@ body{
  margin-top:5rem;
 }
 .main-title{
- font-size:1.25rem;
+ font-size:1.5rem;
  font-weight:normal;
  margin:0 0 1.5rem 0;
  text-align: left;
@@ -42,12 +42,48 @@ body{
 .total-area{
   font-size: 1.5rem;
   text-align: right;
+  margin-bottom:1rem;
+}
+.buy-btn-area{
+  text-align: right;
+}
+#buyBtn{
+ color:#fff !important;
+ width: 15rem !important;
+ margin-bottom:3rem;
+
 }
 #cartTable th{
   width:30%;
 }
 #cartTable td{
   width:70%;
+}
+.left-area{
+  text-align: center;
+}
+.shohin-areas{
+  position: relative;
+}
+.shohin-areas p{
+  margin-bottom: 0.5rem;
+}
+.shohins{
+  width: 8rem;
+  height:8rem;
+  margin-bottom: 0.5rem;
+}
+.check-area{
+  margin-bottom: 0;
+}
+.shohin-names{
+  font-size: 1.25rem;
+  margin-bottom: 1rem !important;
+}
+.delete{
+  position: absolute;
+  right:0;
+  top:0;
 }
 /*ここまでメイン*/
 

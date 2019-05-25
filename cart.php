@@ -23,24 +23,103 @@
 <!-- ここまでメイン -->
 <div class="main-wrapper">
  <div class="main-container">
-   <h1 class="main-title">登録内容確認</h1>
+   <h1 class="main-title">カート</h1>
    <p class="main-txt"><span id="userName">サンプル太郎</span>様のカート商品一覧</p>
 
    <div class="cart-wrapper">
 
      <div class="cart-area">
-       <p class="total-area">合計金額：<span id="totalValue">10,000</span>円</p>
+       <p class="total-area">商品合計：<span id="totalValue">10,000</span>円</p>
+       <p class="buy-btn-area"><a class="waves-effect waves-light btn" id="buyBtn">レジへ進む</a></p>
      </div>
 
      <table id="cartTable">
+
        <tr>
          <th>
-           <div class="left-area">f</div>
+           <div class="left-area">
+             <img src="images/shohin.png" class="shohins">
+           </div>
          </th>
          <td>
-           <div class="right-area">f</div>
+           <div class="right-area">
+
+            <div class="shohin-areas">
+               <p class="shohin-names">カジュアルなジャケット</p>
+               <p class="shohin-makers">ブランド　：sample makers</p>
+               <p class="shohin-colors">色／サイズ：ブルー／S</p>
+               <p class="shohin-prices">価格　　　：¥5,000-（税込）</p>
+               <p class="shohin-num">個数　　　：1個</p>
+               <p class="delete">削除</p>
+           </div>
+
+           </div>
          </td>
        </tr>
+       <tr>
+         <th>
+           <div class="left-area">
+             <img src="images/shohin.png" class="shohins">
+           </div>
+         </th>
+         <td>
+           <div class="right-area">
+
+            <div class="shohin-areas">
+               <p class="shohin-names">カジュアルなジャケット</p>
+               <p class="shohin-makers">ブランド　：sample makers</p>
+               <p class="shohin-colors">色／サイズ：ブルー／S</p>
+               <p class="shohin-prices">価格　　　：¥5,000-（税込）</p>
+               <p class="shohin-num">個数　　　：1個</p>
+               <p class="delete">削除</p>
+           </div>
+
+           </div>
+         </td>
+       </tr>
+       <tr>
+         <th>
+           <div class="left-area">
+             <img src="images/shohin.png" class="shohins">
+           </div>
+         </th>
+         <td>
+           <div class="right-area">
+
+            <div class="shohin-areas">
+               <p class="shohin-names">カジュアルなジャケット</p>
+               <p class="shohin-makers">ブランド　：sample makers</p>
+               <p class="shohin-colors">色／サイズ：ブルー／S</p>
+               <p class="shohin-prices">価格　　　：¥5,000-（税込）</p>
+               <p class="shohin-num">個数　　　：1個</p>
+               <p class="delete">削除</p>
+           </div>
+
+           </div>
+         </td>
+       </tr>
+       <tr>
+         <th>
+           <div class="left-area">
+             <img src="images/shohin.png" class="shohins">
+           </div>
+         </th>
+         <td>
+           <div class="right-area">
+
+            <div class="shohin-areas">
+               <p class="shohin-names">カジュアルなジャケット</p>
+               <p class="shohin-makers">ブランド　：sample makers</p>
+               <p class="shohin-colors">色／サイズ：ブルー／S</p>
+               <p class="shohin-prices">価格　　　：¥5,000-（税込）</p>
+               <p class="shohin-num">個数　　　：1個</p>
+               <p class="delete">削除</p>
+           </div>
+
+           </div>
+         </td>
+       </tr>
+
      </table>
    </div>
 
