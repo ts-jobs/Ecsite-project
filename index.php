@@ -36,6 +36,9 @@
 <div>
   <a href="./complete.php">9.購入完了画面</a>
 </div>
+<div>
+  <a href="./history.php">10.購入履歴画面</a>
+</div>
 <!-- ここまでメイン -->
 
 <!-- ここからフッター -->

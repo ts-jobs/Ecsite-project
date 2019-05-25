@@ -1,0 +1,88 @@
+body{
+ margin:0;
+ position:relative;
+ height:100vh;
+ min-height:100vh;
+}
+
+/*ここからヘッダー*/
+.header-wrapper{
+ background:#eee;
+}
+.logo{
+ padding:1rem 1.5rem;
+}
+/*ここまでヘッダー*/
+
+
+/*ここからメイン*/
+.main-wrapper{
+ text-align:center;
+ min-width:60rem;
+}
+.main-container{
+ background:#eee;
+ width:60rem;
+ min-width:60rem;
+ margin:0 auto;
+ padding:4rem 2rem;
+ text-align:center;
+ margin-top:5rem;
+}
+.main-title{
+ font-size:1.5rem;
+ font-weight:normal;
+ margin:0 0 1.5rem 0;
+ text-align: left;
+}
+.main-txt{
+ font-size:1.25rem;
+ text-align: left;
+}
+.total-area{
+  font-size: 1.5rem;
+  text-align: right;
+  margin-bottom:1rem;
+}
+.back-btn-area{
+  text-align: right;
+}
+#backBtn{
+ margin-bottom:3rem;
+}
+#cartTable th{
+  width:30%;
+}
+#cartTable td{
+  width:70%;
+}
+.left-area{
+  text-align: center;
+}
+.shohin-areas{
+  position: relative;
+}
+.shohin-areas p{
+  margin-bottom: 0.5rem;
+}
+.shohins{
+  width: 8rem;
+  height:8rem;
+  margin-bottom: 0.5rem;
+}
+.check-area{
+  margin-bottom: 0;
+}
+.shohin-names{
+  font-size: 1.25rem;
+  margin-bottom: 1rem !important;
+}
+/*ここまでメイン*/
+
+/*ここからフッター*/
+.footer-wrapper{
+ text-align:center;
+ margin-top:2.5rem;
+ min-width:35rem;
+}
+/*ここまでフッター*/
