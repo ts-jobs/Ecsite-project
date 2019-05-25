@@ -47,22 +47,16 @@ body{
 /*ここからメイン*/
 .main-wrapper{
  text-align:center;
- min-width:60rem;
+ min-width:80rem;
 }
 .main-container{
  background:#eee;
- width:60rem;
+ width:80rem;
  min-width:60rem;
  margin:0 auto;
- padding:4rem 2rem;
+ padding:4rem 1rem;
  text-align:center;
  margin-top:5rem;
-}
-.main-title{
- font-size:1.5rem;
- font-weight:normal;
- margin:0 0 1.5rem 0;
- text-align: left;
 }
 .search-area{
   text-align: right;
@@ -81,39 +75,17 @@ body{
 #searchBtn{
   color:#fff;
 }
-#cartTable th{
-  width:30%;
+.left-side,
+.right-side{
+  background: #a9a9a9;
+  display: inline-block;
 }
-#cartTable td{
-  width:70%;
+.left-side{
+  width:50rem;
+  margin-right: 1rem;
 }
-.left-area{
-  text-align: center;
-}
-.shohin-areas{
-  position: relative;
-}
-.shohin-areas p{
-  margin-bottom: 0.5rem;
-}
-.shohins{
-  width: 8rem;
-  height:8rem;
-  margin-bottom: 0.5rem;
-}
-.check-area{
-  margin-bottom: 0;
-}
-.shohin-names{
-  font-size: 1.25rem;
-  margin-bottom: 1rem !important;
-}
-.back-area{
-  margin-top:3rem;
-  text-align: left;
-}
-.back-btn-area{
-  margin-bottom: 0;
+.right-side{
+  width: 25rem;
 }
 /*ここまでメイン*/
 
