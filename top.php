@@ -1,4 +1,4 @@
-<!-- 購入履歴画面-->
+<!-- 商品閲覧画面-->
 <!doctype html>
 <html lang="ja">
   <head>
@@ -9,28 +9,38 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
-    <link rel="stylesheet" href="css/history.css">
+    <link rel="stylesheet" href="css/top.css">
 
-    <title>購入履歴(サンプル)</title>
+    <title>商品閲覧画面(サンプル)</title>
   </head>
 <body>
 <!-- ここからヘッダー -->
 <div class="header-wrapper">
- <p class="logo">Logo</p>
+ <p class="logo">ts-jobs株式会社</p>
+ <div class="search-area">
+   <input type="search" placeholder="キーワードを入力" id="searchTxt">
+   <a class="waves-effect waves-light btn" id="searchBtn">検索</a>
+   <a href="" id="logIn">ログイン</a>
+   <a href="" id="cart">カート</a>
+ </div>
+
 </div>
 <!-- ここまでヘッダー -->
+
+<!-- ここからトレンド -->
+<div class="trend-wrapper">
+  <div class="trend-images">&nbsp
+    <div class="curtain">トレンド商品</div>
+  </div>
+</div>
+<!-- ここまでトレンド -->
 
 <!-- ここまでメイン -->
 <div class="main-wrapper">
  <div class="main-container">
-   <h1 class="main-title">購入履歴</h1>
-   <p class="main-txt"><span id="userName">サンプル太郎</span>様の購入商品一覧</p>
+   <h1 class="main-title">ts-jobs株式会社</h1>
 
-   <div class="cart-wrapper">
-     <div class="search-area">
-       <input type="search" placeholder="キーワードを入力" id="searchTxt">
-       <a class="waves-effect waves-light btn" id="searchBtn">検索</a>
-     </div>
+
 
      <table id="cartTable">
 

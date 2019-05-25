@@ -31,13 +31,19 @@
   <a href="./confirm.php">3.登録内容確認画面</a>
 </div>
 <div>
+  <a href="./top.php">4.商品閲覧画面</a>
+</div>
+<div>
   <a href="./cart.php">5.商品カート画面</a>
 </div>
+<!-- <div>
+  <a href="./resi.php">6.レジ画面</a>
+</div> -->
 <div>
-  <a href="./complete.php">9.購入完了画面</a>
+  <a href="./complete.php">7.購入完了画面</a>
 </div>
 <div>
-  <a href="./history.php">10.購入履歴画面</a>
+  <a href="./history.php">8.購入履歴画面</a>
 </div>
 <!-- ここまでメイン -->
 

@@ -8,11 +8,40 @@ body{
 /*ここからヘッダー*/
 .header-wrapper{
  background:#eee;
+ position: relative;
+ margin-bottom: 1.5rem;
 }
 .logo{
  padding:1rem 1.5rem;
+ display: inline-block;
+ margin-bottom: 0;
 }
 /*ここまでヘッダー*/
+
+/*ここからトレンド*/
+.trend-wrapper{
+  width:100%;
+}
+.trend-images{
+  background-image: url('../images/trendimage.jpg');
+  background-size: cover;
+  height:23rem;
+  position: relative;
+}
+.curtain{
+  position: absolute;
+  background: black;
+  top:0;
+  left:0;
+  bottom:0;
+  right:0;
+  opacity: 0.6;
+  color:#fff;
+  font-size: 2rem;
+  padding:4rem;
+}
+/*ここまでトレンド*/
+
 
 
 /*ここからメイン*/
@@ -35,13 +64,16 @@ body{
  margin:0 0 1.5rem 0;
  text-align: left;
 }
-.main-txt{
- font-size:1.25rem;
- text-align: left;
-}
 .search-area{
   text-align: right;
-  margin-bottom: 2rem;
+  display:inline-block;
+  position: absolute;
+  right:2rem;
+  margin-top: 0.25rem;
+}
+#logIn,
+#cart{
+  margin-left:1.5rem;
 }
 #searchTxt{
   width:15rem;
