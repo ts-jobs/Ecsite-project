@@ -1,5 +1,4 @@
 <!-- ログイン画面-->
-
 <?php
 require_once('./db/user_db.php');
 
