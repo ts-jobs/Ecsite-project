@@ -18,16 +18,22 @@ body{
 /*ここからメイン*/
 .main-wrapper{
  text-align:center;
- min-width:90rem;
+ width:90rem;
 }
-.main-container{
+.containers{
+}
+.main-container1{
  background:#eee;
- width:60rem;
- min-width:60rem;
- margin:0 auto;
- padding:4rem 2rem;
+ width:50rem;
+ padding:4rem 1rem;
  text-align:center;
- margin-top:5rem;
+ margin-right:2rem;
+}
+.main-container2{
+ background:#eee;
+ width:20rem;
+ padding:4rem 1rem;
+ text-align:center;
 }
 .main-title{
  font-size:1.5rem;
