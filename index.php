@@ -36,9 +36,9 @@
 <div>
   <a href="./cart.php">5.商品カート画面</a>
 </div>
-<!-- <div>
-  <a href="./resi.php">6.レジ画面</a>
-</div> -->
+<div>
+  <a href="./resister.php">6.レジ画面</a>
+</div>
 <div>
   <a href="./complete.php">7.購入完了画面</a>
 </div>
