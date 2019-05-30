@@ -46,8 +46,6 @@
 <!-- ここまでメイン -->
 
 
-
-
 <!-- ここからフッター -->
 <div class="footer-wrapper">
  <p class="copyright">Ⓒts-jobs Sample App 2019</p>

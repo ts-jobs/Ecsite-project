@@ -81,11 +81,11 @@ body{
   display: inline-block;
 }
 .left-side{
-  width:50rem;
+  width:25rem;
   margin-right: 1rem;
 }
 .right-side{
-  width: 25rem;
+  width: 50rem;
 }
 /*ここまでメイン*/
 
