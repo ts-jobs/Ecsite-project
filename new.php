@@ -1,4 +1,17 @@
 <!-- ログイン画面-->
+
+<?php
+require_once('./db/user_db.php');
+
+
+$sample_sql = "select * from user where user_id = 1";
+
+$stmt = $pdo->query($sample_sql);
+$row = $stmt->fetch(PDO::FETCH_ASSOC);
+echo "Hello,".$row['user_name'];
+
+
+?>
 <!doctype html>
 <html lang="ja">
   <head>
