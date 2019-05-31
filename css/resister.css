@@ -35,8 +35,8 @@ body{
 }
 .main-container2{
   width:25rem;
-  min-height:20rem;
-  height:20rem;
+  min-height:21rem;
+  height:21rem;
 }
 .main-title{
  font-size: 1.25rem;
@@ -57,8 +57,12 @@ body{
   margin:0 0 1rem 0;
 }
 .gtotal-value{
-  padding-left:1rem;
+  padding-left:1rem !important;
   margin:0 0 1rem 0;
+}
+.gtotal-area p{
+  border-top:1px solid rgba(0,0,0,0.12);
+  padding: 1rem 0;
 }
 .gtotal-area th,
 .gtotal-area td{
