@@ -35,6 +35,8 @@ body{
 }
 .main-container2{
   width:25rem;
+  min-height:20rem;
+  height:20rem;
 }
 .main-title{
  font-size: 1.25rem;
@@ -47,34 +49,47 @@ body{
  font-size:1.25rem;
  text-align: left;
 }
-.total-value{
-  font-size: 1.3rem;
-  padding-left:1rem;
-  margin:0 0 1rem 0;
-}
-.send-value{
-  font-size: 1.3rem;
-  padding-left:1rem;
-  margin:0 0 1rem 0;
-}
+.total-value,
+.send-value,
 .point-value{
-  font-size: 1.3rem;
+  font-size:1rem;
   padding-left:1rem;
   margin:0 0 1rem 0;
+}
+.gtotal-value{
+  padding-left:1rem;
+  margin:0 0 1rem 0;
+}
+.gtotal-area th,
+.gtotal-area td{
+  font-weight: bold !important;
+  font-size:1.25rem !important;
 }
 .buy-btn-area{
   text-align: center;
 }
 #buyBtn{
  color:#fff !important;
- width: 18rem !important;
+ width: 20rem !important;
  margin-bottom:2rem;
 }
-#cartTable th{
+#table1 th{
   width:30%;
 }
-#cartTable td{
+#table1 td{
   width:70%;
+}
+#table2 tr{
+  border-bottom: none !important;
+}
+#table2 th,
+#table2 td{
+  padding:0 !important;
+  font-weight: normal;
+  font-size: 1.2rem;
+}
+#table2 td{
+text-align: right;
 }
 .left-area{
   text-align: center;
