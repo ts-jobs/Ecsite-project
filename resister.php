@@ -113,23 +113,25 @@
           <p class="total-value">商品合計</p>
         </th>
         <td>
-          <p><span id="totalValue">10,000</span>円（税込）</p>
+          <p><span id="totalValue">20,000</span>円</p>
         </td>
       </tr>
+
       <tr>
         <th>
           <p class="send-value">送料</p>
         </th>
         <td>
-          <p><span id="sendValue">10,000</span>円（税込）</p>
+          <p><span id="sendValue">5,000</span>円</p>
         </td>
       </tr>
+
       <tr>
         <th>
           <p class="point-value" style="color:red;">ポイント利用</p>
         </th>
         <td>
-          <p style="color:red;"><span id="pointValue">-10,000</span>円　　　　</p>
+          <p style="color:red;"><span id="pointValue">-5,000</span>円</p>
         </td>
       </tr>
 
@@ -138,7 +140,7 @@
           <p class="gtotal-value">総合計</p>
         </th>
         <td>
-          <p><span id="gtotalValue">20,000</span>円（税込）</p>
+          <p><span id="gtotalValue">20,000</span>円</p>
         </td>
       </tr>
 
